@@ -34,7 +34,7 @@ let songIndex = 0;
 
 module.exports = {
     config: {
-        name: "mahi",
+        name: "hus",
         aliases: [],
         version: "11.1.0",
         author: "FARHAN-KHAN",
@@ -56,8 +56,8 @@ module.exports = {
 
         // ✅ ONLY mahi trigger
         if (
-            lowerBody === "mahi" ||
-            lowerBody.startsWith("mahi ")
+            lowerBody === "hus" ||
+            lowerBody.startsWith("hus ")
         ) {
 
             try {
